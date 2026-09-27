@@ -77,7 +77,7 @@
         <article>
           
           <h3>Maria Kanyi</h3>
-          <p>Founder &amp; Lead Consultant</p>
+          <p>Founder & Lead Consultant</p>
           <p>
             Former veterinary practice manager, 12 years running a multi-vet
             clinic before founding VetConnect.
@@ -97,7 +97,7 @@
         <article>
           
           <h3>Amara Wanjiru</h3>
-          <p>Operations &amp; Staffing Advisor</p>
+          <p>Operations & Staffing Advisor</p>
           <p>
             Builds hiring and retention plans that keep veterinary support staff
             from burning out and leaving.
@@ -105,9 +105,7 @@
         </article>
       </section>
 
-      <!-- ============================================
-         VIDEO / MEDIA PLACEHOLDER
-         ============================================ -->
+      <!-- VIDEO / MEDIA PLACEHOLDER -->
       <section id="how-we-help">
         <h2>See How a Typical Engagement Works</h2>
         <p>
@@ -115,27 +113,12 @@
           hands-on implementation support for your practice.
         </p>
 
-        <!-- Placeholder for an embedded video; swap the block below for a real <video> or <iframe> later -->
-        <div
-          role="img"
-          aria-label="Video placeholder: introduction to VetConnect's consulting process"
-        >
-          <button
-            type="button"
-            aria-label="Play introduction video (placeholder, video not yet added)"
-          >
-            <svg
-              width="22"
-              height="22"
-              viewBox="0 0 24 24"
-              fill="#1E4640"
-              aria-hidden="true"
-            >
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </button>
+       <!-- video -->
+        <fieldset>
+          <legend>Intro Video</legend>
+          <button type="button">▶ Play</button>
           <p>Intro video — coming soon</p>
-        </div>
+        </fieldset>
       </section>
 
       <!-- CONTACT FORM -->
@@ -155,73 +138,51 @@
           <p>hello@vetconnectconsulting.example</p>
         </address>
 
-        <form action="#" method="post" novalidate>
+        <form action="#" style="background-color: rgb(113, 113, 249); border-radius: 5px;">
           <div>
             <label for="fullname">Full name <span>*</span></label>
-            <input
-              type="text"
-              id="fullname"
-              name="fullname"
-              required
-              minlength="2"
-              autocomplete="name"
-            />
+            <input type="text" id="fullname" name="fullname" required autocomplete="name" />
           </div>
+          <br><br>
 
           <div>
             <label for="practice">Practice name</label>
-            <input
-              type="text"
-              id="practice"
-              name="practice"
-              autocomplete="organization"
-            />
+            <input type="text" id="practice" name="practice" autocomplete="organization"/>
           </div>
+
+          <br><br>
 
           <div>
             <label for="email">Email <span>*</span></label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              autocomplete="email"
-            />
+            <input type="email"  id="email" name="email" required autocomplete="email"/>
           </div>
+          <br><br>
 
           <div>
             <label for="phone">Phone</label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              pattern="[0-9+\-\s]{7,15}"
-              autocomplete="tel"
-            />
+            <input type="tel" id="phone" name="phone"  pattern="[0-9+\-\s]{7,15}" autocomplete="tel"/>
+            <br>
             <small>Optional. Digits, spaces, + and - only.</small>
           </div>
-
+           <br>
           <div>
             <label for="service">Service you're interested in</label>
             <select id="service" name="service">
               <option value="">Select an option</option>
               <option value="practice-management">Practice Management</option>
               <option value="financial-planning">Financial Planning</option>
-              <option value="staffing">Staffing &amp; Retention</option>
+              <option value="staffing">Staffing & Retention</option>
               <option value="client-growth">Client Growth</option>
               <option value="not-sure">Not sure yet</option>
             </select>
           </div>
-
+             <br>
           <div>
             <label for="message">Message <span>*</span></label>
-            <textarea
-              id="message"
-              name="message"
-              required
-              minlength="10"
-              aria-describedby="message-help"
-            ></textarea>
+            
+            <br>
+            <textarea id="message" name="message" required ></textarea>
+            <br>
             <small id="message-help"
               >Tell us briefly what your practice is struggling with.</small
             >
