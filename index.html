@@ -1,14 +1,275 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VetConnect intro</title>
-</head>
-<body>
-    <img src="vetconnectlogo.jpeg" alt="vetconnectlogo" width="200px">
-  <h1>Welcome to VetConnect </h1>
-  <h2>Veterinary care connected</h2>  
-  <a href="login.html">sing-in/login</a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      VetConnect Consulting | Business Consulting for Veterinary Practices
+    </title>
+    <meta
+      name="description"
+      content="VetConnect Consulting helps veterinary practice owners grow profitable, well-run clinics through practice management, financial planning, staffing, and client-growth consulting."
+    />
+  </head>
+  <body>
+    <!-- go to main content on a click of a button -->
+    <a href="#main-content">Skip to main content</a>
+
+    <!-- HEADER + NAVIGATION -->
+    <header>
+      <a href="#top" aria-label="VetConnect Consulting home"
+        >VetConnect Consulting</a>
+        
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#how-we-help">How We Help</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main id="main-content">
+      <!-- ============================================
+         HERO
+         ============================================ -->
+      <section id="top">
+        <p>VETERINARY PRACTICE CONSULTING</p>
+        <h1>Run a healthier practice, not just a healthier patient list.</h1>
+        <p>
+          VetConnect Consulting partners with veterinary clinic owners to fix
+          the business side of the practice — staffing, cash flow, client
+          growth, and day-to-day operations — so you can focus on medicine, not
+          paperwork.
+        </p>
+        <p>
+          <a href="#contact">Book a Free Consultation</a>
+          <a href="#services">See Our Services</a>
+        </p>
+
+        <ul>
+          <li><strong>120+</strong> Practices Advised</li>
+          <li><strong>18%</strong> Avg. Revenue Lift</li>
+          <li><strong>9 yrs</strong> Serving Clinic Owners</li>
+        </ul>
+      </section>
+
+      <!-- ============================================
+         SERVICES
+         ============================================ -->
+      <section id="services">
+        <h2>What We Help Practices Fix</h2>
+        <p>
+          Four focus areas, chosen because they're the ones clinic owners ask us
+          about most.
+        </p>
+      </section>
+
+      <!-- ============================================
+         ABOUT / TEAM
+         ============================================ -->
+      <section id="about">
+        <h2>Built by People Who've Run Clinics</h2>
+        <p>
+          VetConnect Consulting was founded after watching too many skilled
+          veterinarians burn out trying to run a business they were never
+          trained to run. Our team combines hands-on clinic management
+          experience with formal business consulting backgrounds, so the advice
+          we give is practical, not theoretical.
+        </p>
+
+        <article>
+          <p aria-hidden="true">MK</p>
+          <h3>Maria Kanyi</h3>
+          <p>Founder &amp; Lead Consultant</p>
+          <p>
+            Former veterinary practice manager, 12 years running a multi-vet
+            clinic before founding VetConnect.
+          </p>
+        </article>
+
+        <article>
+          <p aria-hidden="true">DO</p>
+          <h3>David Otieno</h3>
+          <p>Financial Strategist</p>
+          <p>
+            Specializes in pricing models and overhead audits for small and
+            mid-size veterinary practices.
+          </p>
+        </article>
+
+        <article>
+          <p aria-hidden="true">AW</p>
+          <h3>Amara Wanjiru</h3>
+          <p>Operations &amp; Staffing Advisor</p>
+          <p>
+            Builds hiring and retention plans that keep veterinary support staff
+            from burning out and leaving.
+          </p>
+        </article>
+      </section>
+
+      <!-- ============================================
+         VIDEO / MEDIA PLACEHOLDER
+         ============================================ -->
+      <section id="how-we-help">
+        <h2>See How a Typical Engagement Works</h2>
+        <p>
+          A short walkthrough of our 90-day process: audit, action plan, and
+          hands-on implementation support for your practice.
+        </p>
+
+        <!-- Placeholder for an embedded video; swap the block below for a real <video> or <iframe> later -->
+        <div
+          role="img"
+          aria-label="Video placeholder: introduction to VetConnect's consulting process"
+        >
+          <button
+            type="button"
+            aria-label="Play introduction video (placeholder, video not yet added)"
+          >
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="#1E4640"
+              aria-hidden="true"
+            >
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </button>
+          <p>Intro video — coming soon</p>
+        </div>
+      </section>
+
+      <!-- ============================================
+         CONTACT FORM
+         ============================================ -->
+      <section id="contact">
+        <h2>Talk to a Consultant</h2>
+        <p>
+          Tell us about your practice and we'll follow up within two business
+          days.
+        </p>
+
+        <address>
+          <h3>Office</h3>
+          <p>Consulting House, 4th Floor<br />Nairobi, Kenya</p>
+          <h3>Hours</h3>
+          <p>Mon–Fri, 8:00 AM – 5:00 PM</p>
+          <h3>Email</h3>
+          <p>hello@vetconnectconsulting.example</p>
+        </address>
+
+        <form action="#" method="post" novalidate>
+          <div>
+            <label for="fullname">Full name <span>*</span></label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              required
+              minlength="2"
+              autocomplete="name"
+            />
+          </div>
+
+          <div>
+            <label for="practice">Practice name</label>
+            <input
+              type="text"
+              id="practice"
+              name="practice"
+              autocomplete="organization"
+            />
+          </div>
+
+          <div>
+            <label for="email">Email <span>*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              autocomplete="email"
+            />
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="[0-9+\-\s]{7,15}"
+              autocomplete="tel"
+            />
+            <small>Optional. Digits, spaces, + and - only.</small>
+          </div>
+
+          <div>
+            <label for="service">Service you're interested in</label>
+            <select id="service" name="service">
+              <option value="">Select an option</option>
+              <option value="practice-management">Practice Management</option>
+              <option value="financial-planning">Financial Planning</option>
+              <option value="staffing">Staffing &amp; Retention</option>
+              <option value="client-growth">Client Growth</option>
+              <option value="not-sure">Not sure yet</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message">Message <span>*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              minlength="10"
+              aria-describedby="message-help"
+            ></textarea>
+            <small id="message-help"
+              >Tell us briefly what your practice is struggling with.</small
+            >
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- ============================================
+       FOOTER
+       ============================================ -->
+    <footer>
+      <div>
+        <h4>VetConnect Consulting</h4>
+        <p>
+          Business consulting built specifically for veterinary practice owners.
+        </p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li aria-label="LinkedIn (placeholder, not linked)">in</li>
+          <li aria-label="Twitter / X (placeholder, not linked)">X</li>
+          <li aria-label="Facebook (placeholder, not linked)">f</li>
+        </ul>
+      </div>
+
+      <p>&copy; 2026 VetConnect Consulting. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
