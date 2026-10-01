@@ -18,10 +18,7 @@ header a{
     display: flex;
     gap: 20px;
 }
-#about img {
-  width: 200px;
-  height: 200px;
-}
+
 
 
 #services article{
@@ -40,6 +37,7 @@ header a{
   flex: 0 0 100%;
   scroll-snap-align: start;
   box-sizing: border-box;
+  
 }
 #services article h3 {
   grid-column: 1 / span 2;
@@ -69,3 +67,45 @@ header a{
   border-radius: 12px;
 }
 
+.hero{
+    background-color: black;
+    color: white;
+    border:10px dotted black;
+    border-radius: 10px;
+}
+
+.hero a{
+    color: white;
+    text-decoration: underline;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+   border:10px dotted black;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.form{
+     border:10px dotted black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+
+}
+
+.quick{
+    background-color: black;
+    color: white;
+    border:10px dotted black;
+    border-radius: 10px;
+
+}
+.quick a{
+    text-decoration:underline;
+    color: white;
+}
