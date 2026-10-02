@@ -13,6 +13,13 @@ header a{
     text-decoration: none;
 }
 
+  ul{
+   background-color: black;
+    color: white;
+    border:10px dotted black;
+    border-radius: 12px;
+
+}
 .nav ul{
     list-style-type: none;
     display: flex;

@@ -11,6 +11,7 @@ VetConnect is a website that connects pet owners and livestock owners to license
 - Book a visit at a clinic near you.
 - Request a vet to come to your home or farm.
 - Reach the Emergency Veterinary Deployment Unit (EVDU) with one click.
+- view all veterinary doctors profiles 
 - Meet the vets, from small animal doctors to large animal and exotic specialists.
 - Send a message through the contact form and get matched with the right vet.
 - Works on phones, with swipeable service cards.
